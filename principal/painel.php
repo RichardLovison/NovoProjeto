@@ -1,6 +1,6 @@
 <?php
 
-include('protecao.php');
+include '../parametros/protecao.php';
 
 ?>
 
@@ -26,7 +26,7 @@ include('protecao.php');
             <li class="header-menu">
                 <ul class="list-itens">
                     <li><a href="#">home</a></li>
-                    <li><a href="teladois.html">Login</a></li>
+                    <li><a href="./principal/painel.php">Login</a></li>
                     <li><a href="#">serviços</a></li>
                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                     <li><a href="https://www.instagram.com/infinityacademia23/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"><i class="fab fa-instagram"></i></a></li>
@@ -47,7 +47,7 @@ include('protecao.php');
     </main>
 
     <p>
-        <a href="logout.php">Sair</a>
+        <a href="../parametros/logout.php">Sair</a>
     </p>
 </body>
 
