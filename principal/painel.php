@@ -31,6 +31,7 @@ include '../parametros/protecao.php';
                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                     <li><a href="https://www.instagram.com/infinityacademia23/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"><i class="fab fa-instagram"></i></a></li>
                     <li><a href="https://wa.link/dube1u"><i class="fab fa-whatsapp"></i></a></li>
+                    <li><a href="../parametros/logout.php">Sair</a></li>
                 </ul>
                 </nav>
         </div>
@@ -46,9 +47,7 @@ include '../parametros/protecao.php';
         </div>
     </main>
 
-    <p>
-        <a href="../parametros/logout.php">Sair</a>
-    </p>
+
 </body>
 
 </html>
