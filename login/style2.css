@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(221, 232, 232);
+    display: flex;
+}
+
+.container {
+    background-color: rgba(17, 2, 32, 0.155);
+    padding: 100px;
+    margin: 125px 550px;
+    display: grid;
+    justify-content: center;
+}
+
+h1{
+    font-size: 25px;
+}

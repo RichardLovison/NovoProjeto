@@ -42,14 +42,19 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login/style2.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Acesse sua conta!</h1>
+    <div class="container">
+        <div class="esquerda">
+        <h1>Acesse sua conta!</h1>
+        </div>
+    <div class="direita">
     <form action="" method="POST">
         <p>
         <label>E-mail</label>
@@ -61,11 +66,11 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
         <input type="password" name="senha">
         </p>
         <p>
-            <button type="submit">Entrar
-
-            </button>
+            <button type="submit">Entrar</button>
+            </div>
         </p>
     </form>
+    </div>
     
 </body>
 </html>
